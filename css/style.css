@@ -979,7 +979,7 @@ transition: transform .2s;
 
 .ads {
   position: fixed;
-  right: 900px;
+  right: 910px;
   top: 60%;
   cursor: pointer;
   z-index: 9;
