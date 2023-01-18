@@ -976,3 +976,12 @@ cursor: pointer;
 z-index: 9;
 transition: transform .2s;
 }
+
+.ads {
+  position: fixed;
+  right: 900px;
+  top: 60%;
+  cursor: pointer;
+  z-index: 9;
+  transition: transform .2s;
+  }
