@@ -28,22 +28,22 @@
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-  var isNS = (navigator.appName == "PN") ? 1 : 0;
-  if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-  function mischandler(){
-  return false;
-  }
-  function mousehandler(e){
-  var myevent = (isNS) ? e : event;
-  var eventbutton = (isNS) ? myevent.which : myevent.button;
-  if((eventbutton==2)||(eventbutton==3)) return false;
-  }
-  document.oncontextmenu = mischandler;
-  document.onmousedown = mousehandler;
-  document.onmouseup = mousehandler;
-  </script>
 
+    <script>
+        var isNS = (navigator.appName == "PN") ? 1 : 0;
+        if(navigator.appName == "PN") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+        function mischandler(){
+        return false;
+        }
+        function mousehandler(e){
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if((eventbutton==2)||(eventbutton==3)) return false;
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+        </script>
 
 </head>
 
@@ -301,7 +301,7 @@
                                 <img src="images/resources/about-style2-image.jpg" alt="Awesome Image">
                                 <div class="overlay-box">
                                     <div class="title">
-                                        <h1>17 <span>Years Experience<br> in this Field</span></h1>
+                                        <h1>12 <span>Years Experience<br> in this Field</span></h1>
                                     </div>
                                     <div class="button">
                                         <a href="#"><span class="icon-back"></span></a>
@@ -329,7 +329,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="icon-architecture-and-city"></span>
+                                                    <img src="img/sp/brand.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -344,7 +344,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="icon-architecture-and-city"></span>
+                                                    <img src="img/sp/brand.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -372,7 +372,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="icon-sheriff"></span>
+                                                    <img src="img/sp/flyer.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -387,7 +387,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="icon-sheriff"></span>
+                                                    <img src="img/sp/flyer.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -415,7 +415,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="icon-cross"></span>
+                                                    <img src="img/sp/video.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -430,7 +430,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="icon-cross"></span>
+                                                    <img src="img/sp/video.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -459,7 +459,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="flaticon-architecture-and-city"></span>
+                                                    <img src="img/sp/social-media.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -474,7 +474,7 @@
                                         <div class="box">
                                             <div class="inner">
                                                 <div class="icon-holder">
-                                                    <span class="flaticon-architecture-and-city"></span>
+                                                    <img src="img/sp/social-media.png">
                                                 </div>
                                                 <div class="text-holder">
                                                     <div class="title">
@@ -528,10 +528,10 @@
                                     <div class="box">
                                         <div class="inner">
                                             <div class="icon">
-                                                <span class="icon-lamp"></span>
+                                                <span class="icon-video"></span>
                                             </div>
                                             <div class="title">
-                                                <h3>Photo-Video</h3>
+                                                <h3>Photo-Videography</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -541,7 +541,7 @@
                                 <div class="inner-content">
                                     <div class="top">
                                         <div class="icon">
-                                            <span class="icon-lamp"></span>
+                                            <span class="icon-video"></span>
                                         </div>
                                         <div class="count">
                                             <h1>01</h1>
@@ -549,7 +549,7 @@
                                     </div>
                                     <div class="bottom">
                                         <div class="title">
-                                            <h3>Photo-Video</h3>
+                                            <h3>PhotoVideography</h3>
                                         </div>
                                         <div class="read-more">
                                             <a href="#"><span class="icon-next"></span></a>
@@ -579,7 +579,7 @@
                                     <div class="box">
                                         <div class="inner">
                                             <div class="icon">
-                                                <span class="icon-paint"></span>
+                                                <span class="icon-sign"></span>
                                             </div>
                                             <div class="title">
                                                 <h3>Sign Board</h3>
@@ -592,7 +592,7 @@
                                 <div class="inner-content">
                                     <div class="top">
                                         <div class="icon">
-                                            <span class="icon-paint"></span>
+                                            <span class="icon-sign"></span>
                                         </div>
                                         <div class="count">
                                             <h1>02</h1>
@@ -629,7 +629,7 @@
                                     <div class="box">
                                         <div class="inner">
                                             <div class="icon">
-                                                <span class="icon-floor"></span>
+                                                <span class="icon-adv"></span>
                                             </div>
                                             <div class="title">
                                                 <h3>Advertisements</h3>
@@ -642,7 +642,7 @@
                                 <div class="inner-content">
                                     <div class="top">
                                         <div class="icon">
-                                            <span class="icon-floor"></span>
+                                            <span class="icon-adv"></span>
                                         </div>
                                         <div class="count">
                                             <h1>03</h1>
@@ -680,7 +680,7 @@
                                     <div class="box">
                                         <div class="inner">
                                             <div class="icon">
-                                                <span class="icon-window"></span>
+                                                <span class="icon-vm"></span>
                                             </div>
                                             <div class="title">
                                                 <h3>Visual Media</h3>
@@ -693,7 +693,7 @@
                                 <div class="inner-content">
                                     <div class="top">
                                         <div class="icon">
-                                            <span class="icon-window"></span>
+                                            <span class="icon-vm"></span>
                                         </div>
                                         <div class="count">
                                             <h1>04</h1>
